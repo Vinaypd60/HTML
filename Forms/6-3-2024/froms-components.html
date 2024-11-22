@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+
+    <body>
+        <form>
+        <h2>Radio</h2>
+        <input type="radio" name="gender"  /><label>Male</label>
+        <input type="radio" name="gender"  /><label>Female</label>
+    </form>
+
+    <form>
+        <h2>Range</h2>
+        <input type="range" min="0" max="100" value="12" step="1" />
+        <br />
+        <h2>Progress</h2>
+        <progress value="90" max="100">70%</progress>
+    </form>
+    <form>
+        <h2>Weeks</h2>
+        <input type="week" />
+        <br />
+        <h2>Time</h2>
+        <input type="time" />
+        <br />
+        <h2>Numbers</h2>
+        <input type="number" />
+    </form>
+    <form>
+        <h2>Datalist with Input element</h2>
+        <input list="Users" />
+        <datalist id="Users">
+            <option>Vinay</option>
+            <option>Sai</option>
+            <option>Ruchitha</option>
+            <option>Sneha</option>
+            <option>Williams</option>
+            <option>Joe</option>
+            <option>Koti</option>
+        </datalist>
+    </form>
+    <form>
+        <h2>DropDown</h2>
+        <select>
+            <option>Select the City</option>
+            <option>Hyderabad</option>
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Delhi</option>
+            <option>Bangalore</option>
+            <option>Chennai</option>
+        </select>
+
+        <select>
+            <optgroup label="Programming language">
+                <option>Java</option>
+                <option>C#</option>
+                <option>Javascript</option>
+                <option>Typescript</option>
+            </optgroup>
+            <optgroup label="Framework">
+                <option>React</option>
+                <option>Angular</option>
+                <option>vue js</option>
+                <option>ASP.NET</option>
+            </optgroup>
+        </select>
+    </form>
+       <form>
+           <h2>Text-area</h2>
+          <textarea cols="50" rows="10"></textarea>
+       </form> 
+       <form action="path" method="get" novalidate>
+        <h2>Button</h2>
+        <input placeholder="Username" />
+        <input type="password" placeholder="Password" />
+        <input type="button"  value="login"/>
+        <button>sign in</button>
+        <input type="reset" />
+        <input type="submit" />
+       </form>          
+</body>
+</html>

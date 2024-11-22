@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login form</title>
+        <style>
+            div{
+                margin: auto;
+                text-align: center;
+                margin-top: 100px;
+                border:2px  solid black;
+                margin-left: 440px;
+                margin-right: 440px;
+                background-color: slateblue;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+
+            <h2>Login</h2>
+            <br />
+            <label>Enter Email:</label>
+            <input type="text" placeholder="Enter EmailID" />
+            <br />
+            <br />
+            <label>UserName:</label>
+            <input type="text"  placeholder="Enter UserName" />
+            <br />
+            <br />
+            <lable>Password:</lable>
+            <input type="text" placeholder="Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required />
+            <br />
+            <br />
+            <label>Gender:</label>
+            <input type="radio"  name="gender"/>
+            <label>Male</label>
+            <input type="radio" name="gender" />
+            <label>Female</label>
+            <input type="radio" name="gender"/>
+            <lable>Others</lable>
+            <br /><br />   
+            <input type="button" value="Login" />
+        
+            <input type="button" value="Sign up" />  
+            <br /><br />      
+        </div>
+    </body>
+</html>
